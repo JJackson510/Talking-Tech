@@ -1,5 +1,5 @@
 const Comment = require('./Comments');
-const User = require('./Users');
+const User = require('./User');
 const Post = require('./Post');
 
 User.hasMany(Post, {
